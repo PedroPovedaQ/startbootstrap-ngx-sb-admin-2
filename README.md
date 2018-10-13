@@ -1,6 +1,6 @@
 # NGX Start Bootstrap - SB Admin 2
 
-This is an Angular implementation/clone of [Start Bootstrap's](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
+This is an Angular implementation of [Start Bootstrap's](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
