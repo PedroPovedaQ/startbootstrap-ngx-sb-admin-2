@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "startbootstrap-sb-admin2": {
+    "startbootstrap-sb-admin-2": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/startbootstrap-sb-admin2",
+            "outputPath": "dist/startbootstrap-sb-admin-2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "startbootstrap-sb-admin2:build"
+            "browserTarget": "startbootstrap-sb-admin-2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "startbootstrap-sb-admin2:build:production"
+              "browserTarget": "startbootstrap-sb-admin-2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "startbootstrap-sb-admin2:build"
+            "browserTarget": "startbootstrap-sb-admin-2:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "startbootstrap-sb-admin2-e2e": {
+    "startbootstrap-sb-admin-2-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "startbootstrap-sb-admin2:serve"
+            "devServerTarget": "startbootstrap-sb-admin-2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "startbootstrap-sb-admin2:serve:production"
+              "devServerTarget": "startbootstrap-sb-admin-2:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "startbootstrap-sb-admin2"
+  "defaultProject": "startbootstrap-sb-admin-2"
 }

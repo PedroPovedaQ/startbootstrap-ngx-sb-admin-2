@@ -9,6 +9,6 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to startbootstrap-sb-admin2!');
+    expect(page.getParagraphText()).toEqual('Welcome to startbootstrap-sb-admin-2!');
   });
 });

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'startbootstrap-sb-admin2';
+  title = 'startbootstrap-sb-admin-2';
 }
