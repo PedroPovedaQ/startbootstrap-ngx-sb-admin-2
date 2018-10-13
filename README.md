@@ -1,4 +1,4 @@
-# NGX NG Admin 2
+# NGX Start Bootstrap - SB Admin 2
 
 This is an Angular implementation/clone of [Start Bootstrap's](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
 ## Development server
